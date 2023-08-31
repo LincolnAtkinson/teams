@@ -1,4 +1,4 @@
-.middle, .nav {
+.music, .middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,12 +115,16 @@ body {
   background-color: white;
   height: 42%;
   width: 100%;
+  background-image: url(images/Screenshot\ 2023-08-31\ 092956.png);
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .proplan {
   background-color: white;
   height: 35%;
   width: 100%;
+  background-image: url(images/pro.png);
 }
 
 .last {
