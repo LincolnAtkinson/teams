@@ -111,6 +111,7 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .music img {
   width: 38px;
@@ -118,9 +119,10 @@ body {
 }
 .music span {
   margin-right: 8px;
+  font-size: 15px;
 }
 .music .musicbar {
-  width: 65%;
+  width: 55%;
 }
 .music .musicbar .playbar {
   background-color: gray;
