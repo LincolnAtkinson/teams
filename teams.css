@@ -32,7 +32,7 @@ body {
 }
 
 .nav {
-  width: 12%;
+  width: 13%;
   height: 80vh;
   margin: 30px;
   background-color: white;
@@ -42,6 +42,7 @@ body {
 
 .company {
   flex-grow: 2;
+  margin: 18% 0;
 }
 
 .links {
@@ -52,14 +53,25 @@ body {
   justify-content: center;
 }
 .links span {
-  width: 90%;
+  width: 70%;
   color: gray;
+  font-size: 13px;
+  background-color: rgb(240, 240, 240);
+  height: 4vh;
+  display: flex;
+  align-items: center;
 }
 .links img {
-  width: 20px;
+  width: 18px;
+  margin-right: 6px;
 }
 .links .dashy {
+  width: 90%;
   color: black;
+}
+
+.space {
+  height: 30%;
 }
 
 .middle {

@@ -33,7 +33,7 @@ span {
     @extend %font;
 }
 .nav {
-    width: 12%;
+    width: 13%;
     height: var.$genHeight;
     margin: var.$genMargin;
     background-color: var.$white;
@@ -44,6 +44,7 @@ span {
 .company {
     @extend %center;
     flex-grow: 2;
+    margin: 18% 0;
 }
 .links {
     height: 80%;
@@ -52,15 +53,25 @@ span {
     flex-wrap: wrap;
     justify-content: center;
     span {
-        width: 90%;
+        width: 70%;
         color: gray;
+        font-size: 13px;
+        background-color: rgb(240, 240, 240);
+        height: 4vh;
+        display: flex;
+        align-items: center;
     }
     img {
-        width: 20px;
+        width: 18px;
+        margin-right: 6px;
     }
     .dashy {
+        width: 90%;
         color: black;
     }
+}
+.space {
+    height: 30%;
 }
 .middle {
     width: 30%;
