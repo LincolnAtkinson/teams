@@ -153,8 +153,35 @@ span {
     width: 30%;
     height: var.$genHeight;
     margin: var.$genMargin;
-    background-color: var.$white;
+    @extend %flexes;
+    justify-content: space-between;
 }
 .title {
     font-size: 27px;
+}
+.principles {
+    background-color: var.$white;
+    width: 100%;
+    height: 38%;
+}
+.row {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: space-between;
+    .course {
+        background-color: var.$white;
+        width: 60%;
+        height: 100%;
+    }
+    .scientist {
+        background-color: var.$white;
+        width: 30%;
+        height: 100%;
+    }
+}
+.blog {
+    background-color: var.$white;
+    width: 100%;
+    height: 27%;
 }
