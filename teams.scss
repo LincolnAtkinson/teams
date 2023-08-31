@@ -65,6 +65,10 @@ span {
         width: 18px;
         margin-right: 6px;
     }
+    .coloricon {
+        width: 12px;
+        border-radius: 100%;
+    }
     .dashy {
         width: 90%;
         color: black;
@@ -86,7 +90,7 @@ span {
     background-color: var.$white;
 }
 .title {
-    font-size: 20px;
+    font-size: 27px;
 }
 .playbar{
     background-color: var.$background;

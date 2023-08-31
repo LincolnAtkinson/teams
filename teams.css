@@ -65,6 +65,10 @@ body {
   width: 18px;
   margin-right: 6px;
 }
+.links .coloricon {
+  width: 12px;
+  border-radius: 100%;
+}
 .links .dashy {
   width: 90%;
   color: black;
@@ -89,7 +93,7 @@ body {
 }
 
 .title {
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .playbar {
