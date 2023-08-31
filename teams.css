@@ -36,6 +36,30 @@ body {
   height: 80vh;
   margin: 30px;
   background-color: white;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.company {
+  flex-grow: 2;
+}
+
+.links {
+  height: 80%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.links span {
+  width: 90%;
+  color: gray;
+}
+.links img {
+  width: 20px;
+}
+.links .dashy {
+  color: black;
 }
 
 .middle {

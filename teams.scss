@@ -24,7 +24,7 @@ html, body, head {
 }
 body {
     height: 100vh;
-    background-color: rgb(230, 230, 230);   
+    background-color: rgb(230, 230, 230);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +38,29 @@ span {
     margin: var.$genMargin;
     background-color: var.$white;
     @extend %flexes;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
 .company {
     @extend %center;
+    flex-grow: 2;
+}
+.links {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    span {
+        width: 90%;
+        color: gray;
+    }
+    img {
+        width: 20px;
+    }
+    .dashy {
+        color: black;
+    }
 }
 .middle {
     width: 30%;
