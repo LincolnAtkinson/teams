@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+span {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Signika", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
 html, body, head {
   padding: 0;
   margin: 0;
@@ -44,4 +50,8 @@ body {
   border-radius: 100%;
   width: 20px;
   height: 20px;
+}
+
+.title {
+  font-size: 20px;
 }/*# sourceMappingURL=teams.css.map */

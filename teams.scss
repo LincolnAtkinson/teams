@@ -23,6 +23,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+span {
+    @extend %font;
+}
 .nav {
     width: 12%;
     height: var.$genHeight;
@@ -49,5 +52,5 @@ body {
     height: 20px;
 }
 .title {
-
+    font-size: 20px;
 }
