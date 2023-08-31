@@ -92,6 +92,15 @@ span {
 .title {
     font-size: 27px;
 }
-.playbar{
-    background-color: var.$background;
+.music{
+    background-color: rgb(255, 255, 255);
+    @extend %flexes;
+   flex-direction: row;
+   justify-content: center;
+    .playbar{
+        background-color: grey;
+        width: 50%;
+        border-radius: 30px;
+        height: 10px;
+    }
 }

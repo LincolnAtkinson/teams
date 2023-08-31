@@ -1,4 +1,4 @@
-.nav {
+.music, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,6 +96,14 @@ body {
   font-size: 27px;
 }
 
-.playbar {
-  background-color: rgb(230, 230, 230);
+.music {
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  justify-content: center;
+}
+.music .playbar {
+  background-color: grey;
+  width: 50%;
+  border-radius: 30px;
+  height: 10px;
 }/*# sourceMappingURL=teams.css.map */
