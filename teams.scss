@@ -95,7 +95,7 @@ span {
     }
 }
 .middle {
-    width: 28%;
+    width: 25%;
     height: var.$genHeight;
     margin: var.$genMargin;
     @extend %flexes;
@@ -108,15 +108,17 @@ span {
     @extend %flexes;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     img {
         width: 38px;
         margin-left: 8px;
     }
     span {
         margin-right: 8px;
+        font-size: 15px;
     }
     .musicbar {
-        width: 65%;
+        width: 55%;
         .playbar{
             background-color: gray;
             width: 50%;
