@@ -56,7 +56,7 @@ span {
         width: 70%;
         color: gray;
         font-size: 13px;
-        background-color: rgb(240, 240, 240);
+        background-color: var.$white;
         height: 4vh;
         display: flex;
         align-items: center;
@@ -66,7 +66,7 @@ span {
         margin-right: 6px;
     }
     .coloricon {
-        width: 12px;
+        width: 10px;
         border-radius: 100%;
     }
     .dashy {
@@ -74,14 +74,47 @@ span {
         color: black;
     }
 }
+.links span:hover {
+    background-color: rgb(240, 240, 240);
+}
+.selected {
+    background-color: rgb(240, 240, 240);
+}
 .space {
     height: 30%;
+}
+.logout {
+    margin-bottom: 15px;
+    img {
+        width: 18px;
+        margin-right: 6px;
+    }
+    span {
+        display: flex;
+        align-items: center;
+    }
 }
 .middle {
     width: 30%;
     height: var.$genHeight;
     margin: var.$genMargin;
+    @extend %flexes;
+    justify-content: space-between;
+}
+.music {
     background-color: var.$white;
+    height: 10%;
+    width: 100%;
+}
+.activity {
+    background-color: var.$white;
+    height: 42%;
+    width: 100%;
+}
+.proplan {
+    background-color: var.$white;
+    height: 35%;
+    width: 100%;
 }
 .last {
     width: 30%;

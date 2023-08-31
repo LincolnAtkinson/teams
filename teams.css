@@ -1,4 +1,4 @@
-.music, .nav {
+.middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ body {
   width: 70%;
   color: gray;
   font-size: 13px;
-  background-color: rgb(240, 240, 240);
+  background-color: white;
   height: 4vh;
   display: flex;
   align-items: center;
@@ -66,7 +66,7 @@ body {
   margin-right: 6px;
 }
 .links .coloricon {
-  width: 12px;
+  width: 10px;
   border-radius: 100%;
 }
 .links .dashy {
@@ -74,15 +74,53 @@ body {
   color: black;
 }
 
+.links span:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.selected {
+  background-color: rgb(240, 240, 240);
+}
+
 .space {
   height: 30%;
+}
+
+.logout {
+  margin-bottom: 15px;
+}
+.logout img {
+  width: 18px;
+  margin-right: 6px;
+}
+.logout span {
+  display: flex;
+  align-items: center;
 }
 
 .middle {
   width: 30%;
   height: 80vh;
   margin: 30px;
+  justify-content: space-between;
+}
+
+.music {
   background-color: white;
+  height: 10%;
+  width: 100%;
+}
+
+.activity {
+  background-color: white;
+  height: 42%;
+  width: 100%;
+}
+
+.proplan {
+  background-color: white;
+  height: 35%;
+  width: 100%;
 }
 
 .last {
