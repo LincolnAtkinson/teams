@@ -1,4 +1,4 @@
-.middle, .nav {
+.music, .middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,6 +109,17 @@ body {
   background-color: white;
   height: 10%;
   width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.music img {
+  width: 38px;
+}
+.music .playbar {
+  background-color: grey;
+  width: 50%;
+  border-radius: 30px;
+  height: 10px;
 }
 
 .activity {
@@ -132,16 +143,4 @@ body {
 
 .title {
   font-size: 27px;
-}
-
-.music {
-  background-color: rgb(255, 255, 255);
-  flex-direction: row;
-  justify-content: center;
-}
-.music .playbar {
-  background-color: grey;
-  width: 50%;
-  border-radius: 30px;
-  height: 10px;
 }/*# sourceMappingURL=teams.css.map */

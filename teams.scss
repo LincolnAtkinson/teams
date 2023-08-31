@@ -105,6 +105,18 @@ span {
     background-color: var.$white;
     height: 10%;
     width: 100%;
+    @extend %flexes;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+        width: 38px;
+    }
+    .playbar{
+        background-color: grey;
+        width: 50%;
+        border-radius: 30px;
+        height: 10px;
+    }
 }
 .activity {
     background-color: var.$white;
@@ -124,16 +136,4 @@ span {
 }
 .title {
     font-size: 27px;
-}
-.music{
-    background-color: rgb(255, 255, 255);
-    @extend %flexes;
-   flex-direction: row;
-   justify-content: center;
-    .playbar{
-        background-color: grey;
-        width: 50%;
-        border-radius: 30px;
-        height: 10px;
-    }
 }
