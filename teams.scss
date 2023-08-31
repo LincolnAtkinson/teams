@@ -95,7 +95,7 @@ span {
     }
 }
 .middle {
-    width: 30%;
+    width: 28%;
     height: var.$genHeight;
     margin: var.$genMargin;
     @extend %flexes;
@@ -137,14 +137,15 @@ span {
     background-color: var.$white;
     height: 42%;
     width: 100%;
-    background-image: url(images/Screenshot\ 2023-08-31\ 092956.png);
-    object-fit: contain;
+    background-image: url(images/graph2.png);
+    background-size: 100% 103%;
 }
 .proplan {
     background-color: var.$white;
     height: 35%;
     width: 100%;
     background-image: url(images/pro.png);
+    background-size: cover;
 }
 .last {
     width: 30%;
