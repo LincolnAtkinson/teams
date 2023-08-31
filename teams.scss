@@ -98,7 +98,23 @@ span {
     width: 30%;
     height: var.$genHeight;
     margin: var.$genMargin;
+    @extend %flexes;
+    justify-content: space-between;
+}
+.music {
     background-color: var.$white;
+    height: 10%;
+    width: 100%;
+}
+.activity {
+    background-color: var.$white;
+    height: 42%;
+    width: 100%;
+}
+.proplan {
+    background-color: var.$white;
+    height: 35%;
+    width: 100%;
 }
 .last {
     width: 30%;
