@@ -1,5 +1,47 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 html, body, head {
   padding: 0;
   margin: 0;
   border: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 12%;
+  height: 80vh;
+  margin: 30px;
+  background-color: white;
+}
+
+.middle {
+  width: 30%;
+  height: 80vh;
+  margin: 30px;
+  background-color: white;
+}
+
+.last {
+  width: 30%;
+  height: 80vh;
+  margin: 30px;
+  background-color: white;
+}
+
+.logo {
+  background-color: black;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=teams.css.map */
