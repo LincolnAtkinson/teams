@@ -10,6 +10,13 @@ span {
   font-family: "Ubuntu", sans-serif;
 }
 
+.company {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 html, body, head {
   padding: 0;
   margin: 0;
@@ -43,13 +50,6 @@ body {
   height: 80vh;
   margin: 30px;
   background-color: white;
-}
-
-.logo {
-  background-color: black;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
 }
 
 .title {

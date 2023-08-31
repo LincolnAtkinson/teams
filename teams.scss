@@ -10,6 +10,12 @@
     font-family: 'Signika', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }
+%center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 
 html, body, head {
     padding: 0;
@@ -33,6 +39,9 @@ span {
     background-color: var.$white;
     @extend %flexes;
 }
+.company {
+    @extend %center;
+}
 .middle {
     width: 30%;
     height: var.$genHeight;
@@ -44,12 +53,6 @@ span {
     height: var.$genHeight;
     margin: var.$genMargin;
     background-color: var.$white;
-}
-.logo {
-    background-color: black;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
 }
 .title {
     font-size: 20px;
