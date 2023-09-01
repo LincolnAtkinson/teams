@@ -189,6 +189,12 @@ body {
   width: 30%;
   height: 100%;
 }
+.row .scientist .pfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  justify-content: center;
+}
 
 .blog {
   background-color: white;
@@ -211,7 +217,7 @@ a {
   width: 100%;
 }
 .top span {
-  font-size: 10px;
+  font-size: 20px;
   height: 100%;
   display: flex;
   align-items: center;
