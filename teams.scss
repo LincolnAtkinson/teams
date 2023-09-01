@@ -390,6 +390,9 @@ a {
     width: 15%;
     height: var.$genHeight;
     margin: var.$genMargin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .user {
     width: 100%;
@@ -403,7 +406,7 @@ a {
 }
 .fff {
     @extend %flexes;
-    background-color: green;
+    height: 100%;
     .Ttop {
         width: 100%;
         display: flex;

@@ -393,6 +393,9 @@ a {
   width: 15%;
   height: 87vh;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .user {
@@ -408,7 +411,11 @@ a {
 }
 
 .fff {
+<<<<<<< HEAD
   background-color: green;
+=======
+  height: 100%;
+>>>>>>> 46d1ab5c7d26b3ec6b3102b63ec4cfd5140a30f8
 }
 .fff .Ttop {
   width: 100%;
