@@ -195,3 +195,21 @@ a {
 .greeaa {
     background-color: aquamarine;
 }
+.course {
+    @extend %flexes;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+    span {
+        font-size: 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .dots {
+    }
+}
