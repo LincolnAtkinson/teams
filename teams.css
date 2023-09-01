@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-a, span {
+.inputs input, a, span {
   font-family: "Noto Sans", sans-serif;
   font-family: "Signika", sans-serif;
   font-family: "Ubuntu", sans-serif;
@@ -272,10 +272,98 @@ a {
   width: 100%;
 }
 .top span {
-  font-size: 25px;
-  height: 100%;
+  font-size: 22px;
+  height: 60%;
+  margin: 10px;
 }
-.top .dots {
+.top .dott {
   display: flex;
   align-items: center;
+  margin: 2px 10px;
+}
+
+.bars {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bars .child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  margin: 4px 0px;
+}
+.bars .child .words {
+  display: flex;
+  align-items: center;
+}
+.bars .child .words span {
+  font-size: 14px;
+}
+.bars .child .words img {
+  margin: 0px 8px;
+}
+.bars .child .words .squarea {
+  width: 13px;
+  height: 13px;
+}
+.bars .child .words .Rtrgle {
+  width: 13px;
+  height: 13px;
+}
+.bars .child .lines {
+  height: 10%;
+  width: 50%;
+}
+.bars .child .lines .redBar {
+  width: 55%;
+  height: 6px;
+  background-color: rgb(216, 113, 113);
+  position: relative;
+  z-index: 1;
+}
+.bars .child .lines .greenBar {
+  width: 30%;
+  height: 6px;
+  background-color: rgb(50, 235, 50);
+  position: relative;
+  z-index: 1;
+}
+.bars .child .lines .BredBar {
+  width: 80%;
+  height: 6px;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+  bottom: 6px;
+}
+.bars .child .lines .BgreenBar {
+  width: 80%;
+  height: 6px;
+  background-color: rgb(224, 224, 224);
+  position: relative;
+  bottom: 6px;
+}
+
+.inputs {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputs input {
+  margin-top: 10px;
+  width: 40%;
+  height: 60%;
+}
+.inputs .Bbutton {
+  background-color: black;
+  color: white;
+  border: 0px solid black;
+}
+.inputs .Wbutton {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }/*# sourceMappingURL=teams.css.map */
