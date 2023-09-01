@@ -1,4 +1,4 @@
-.course, .level, .principles .container, .last, .music, .middle, .nav {
+.fff, .course, .level, .principles .container, .last, .music, .middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -393,6 +393,9 @@ a {
   width: 15%;
   height: 87vh;
   margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .user {
@@ -401,8 +404,18 @@ a {
   background-color: white;
 }
 
-.company {
+.comp {
   width: 100%;
   height: 46%;
   background-color: white;
+}
+
+.fff {
+  height: 100%;
+}
+.fff .Ttop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=teams.css.map */
