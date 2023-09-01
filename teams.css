@@ -1,4 +1,4 @@
-.fff, .course, .level, .principles .container, .last, .music, .middle, .nav {
+.fff, .comp, .user, .course, .level, .principles .container, .last, .music, .middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -403,19 +403,44 @@ a {
   height: 48%;
   background-color: white;
 }
+.user .profile {
+  width: 85%;
+  height: 60%;
+  border: solid black 7px;
+  border-radius: 51%;
+  background-image: url(images/more-leaves-on-green.png);
+}
+.user .profile img {
+  display: flex;
+  width: 70%;
+  height: 95%;
+  margin-left: 15%;
+  border-radius: 30%;
+}
+.user :nth-child(2) {
+  margin: 10px;
+}
 
 .comp {
   width: 100%;
   height: 46%;
   background-color: white;
 }
+.comp .Info {
+  font-size: 25px;
+  margin: 10%;
+}
+.comp .current {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+}
+.comp .current div {
+  margin-bottom: 15px;
+}
 
 .fff {
-<<<<<<< HEAD
-  background-color: green;
-=======
   height: 100%;
->>>>>>> 46d1ab5c7d26b3ec6b3102b63ec4cfd5140a30f8
 }
 .fff .Ttop {
   width: 100%;
