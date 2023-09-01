@@ -217,9 +217,10 @@ a {
   width: 100%;
 }
 .top span {
-  font-size: 20px;
+  font-size: 25px;
   height: 100%;
+}
+.top .dots {
   display: flex;
   align-items: center;
-  justify-content: center;
 }/*# sourceMappingURL=teams.css.map */
