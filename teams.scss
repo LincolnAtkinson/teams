@@ -174,8 +174,13 @@ a {
         height: 125px;
         margin: 4% 4% 0% 4%;
         background: red url("images/more-leaves-on-green.png") top center repeat;
-        opacity: 50%;
         @extend %flexes;
+    }
+    .headshot{
+        width: 150px;
+        margin: 0 5px 0px 45%; 
+        position: relative;
+        bottom: 65px;
     }
     span{
         display: flex;
@@ -250,6 +255,9 @@ a {
     background-color: var.$white;
     width: 100%;
     height: 27%;
+    background-image:url(images/blogs.png);
+    background-size: 90% 103%;
+    background-repeat: no-repeat;
 }
 a {
     text-decoration: none;
