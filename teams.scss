@@ -167,6 +167,50 @@ a {
     background-color: var.$white;
     width: 100%;
     height: 38%;
+    display: flex;
+    flex-direction: column;
+    .container{
+        width: 92%;
+        height: 125px;
+        margin: 4% 4% 0% 4%;
+        background: red url("images/more-leaves-on-green.png") top center repeat;
+        opacity: 50%;
+        @extend %flexes;
+    }
+    span{
+        display: flex;
+    }
+}
+.text{
+    margin: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    :nth-child(2){
+        font-size: 10px;
+    }
+}
+.level{
+    @extend %flexes;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .advanced{
+        display: flex;
+        :first-child{
+            margin-right: 10%;
+        }
+    }
+    .start{
+        display: flex;
+        :first-child{
+            margin-right: 10%;
+        }
+    }
+    .classes{
+        display: flex;
+        :first-child{
+            margin-right: 10%;
+        }
+    }
 }
 .row {
     width: 100%;
@@ -190,12 +234,14 @@ a {
             font-size: 12px;
         }
         .pfp{
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             border-radius: 100%; 
+            margin-bottom: 10px;
         }
         .stocks{
-            width: 125px;
+            width: 90%;
+            margin-top: 10px;
         }
     }
 }

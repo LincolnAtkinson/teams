@@ -1,4 +1,4 @@
-.course, .last, .music, .middle, .nav {
+.course, .level, .principles .container, .last, .music, .middle, .nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,6 +171,50 @@ body {
   background-color: white;
   width: 100%;
   height: 38%;
+  display: flex;
+  flex-direction: column;
+}
+.principles .container {
+  width: 92%;
+  height: 125px;
+  margin: 4% 4% 0% 4%;
+  background: red url("images/more-leaves-on-green.png") top center repeat;
+  opacity: 50%;
+}
+.principles span {
+  display: flex;
+}
+
+.text {
+  margin: 2% 4%;
+  display: flex;
+  flex-direction: column;
+}
+.text :nth-child(2) {
+  font-size: 10px;
+}
+
+.level {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.level .advanced {
+  display: flex;
+}
+.level .advanced :first-child {
+  margin-right: 10%;
+}
+.level .start {
+  display: flex;
+}
+.level .start :first-child {
+  margin-right: 10%;
+}
+.level .classes {
+  display: flex;
+}
+.level .classes :first-child {
+  margin-right: 10%;
 }
 
 .row {
@@ -197,12 +241,14 @@ body {
   font-size: 12px;
 }
 .row .scientist .pfp {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
+  margin-bottom: 10px;
 }
 .row .scientist .stocks {
-  width: 125px;
+  width: 90%;
+  margin-top: 10px;
 }
 
 .blog {
