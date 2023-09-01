@@ -320,4 +320,10 @@ a {
   background-color: white;
   color: black;
   border: 1px solid black;
+}
+.inputs .Bbutton:hover {
+  color: lightgray;
+}
+.inputs .Wbutton:hover {
+  color: gray;
 }/*# sourceMappingURL=teams.css.map */
