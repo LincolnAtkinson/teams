@@ -206,19 +206,19 @@ a {
     .advanced{
         display: flex;
         :first-child{
-            margin-right: 10%;
+            margin-right: var.$rightmarg;
         }
     }
     .start{
         display: flex;
         :first-child{
-            margin-right: 10%;
+            margin-right: var.$rightmarg;
         }
     }
     .classes{
         display: flex;
         :first-child{
-            margin-right: 10%;
+            margin-right: var.$rightmarg;
         }
     }
 }
@@ -399,7 +399,7 @@ a {
     height: 48%;
     background-color: var.$white;
 }
-.comp {
+.comp{
     width: 100%;
     height: 46%;
     background-color: var.$white;
