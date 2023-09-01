@@ -17,6 +17,11 @@
     text-align: center;
 }
 
+@mixin flee($marr: 0px, $padd: 0px) {
+    margin: $marr;
+    padding: $padd;
+}
+
 html, body, head {
     padding: 0;
     margin: 0;
@@ -365,5 +370,36 @@ a {
     }
     .Wbutton:hover {
         color: gray;
+    }
+}
+.Smiddle {
+    width: 35%;
+    height: var.$genHeight;
+    margin: var.$genMargin;
+    background-color: var.$white;
+}
+.Slast {
+    width: 15%;
+    height: var.$genHeight;
+    margin: var.$genMargin;
+}
+.user {
+    width: 100%;
+    height: 48%;
+    background-color: var.$white;
+}
+.company {
+    width: 100%;
+    height: 46%;
+    background-color: var.$white;
+}
+.fff {
+    @extend %flexes;
+    background-color: green;
+    .Ttop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
