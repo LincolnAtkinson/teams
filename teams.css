@@ -185,15 +185,24 @@ body {
   height: 100%;
 }
 .row .scientist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: white;
   width: 30%;
   height: 100%;
+}
+.row .scientist span {
+  font-size: 12px;
 }
 .row .scientist .pfp {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  justify-content: center;
+}
+.row .scientist .stocks {
+  width: 125px;
 }
 
 .blog {
