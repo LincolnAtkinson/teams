@@ -403,6 +403,7 @@ a {
     .profile{
         width: 85%;
         height: 60%;
+        @include flee;
         border: solid black 7px;
         border-radius: 51%;
         background-image: url(images/more-leaves-on-green.png);
@@ -424,13 +425,14 @@ a {
     background-color: var.$white;
     @extend %flexes;
     .Info{
-        font-size: 25px;
+        font-size: 120%;
         margin: 10%;
     }
     .current{
         display: flex;
         flex-direction: column;
-        margin: 10%;   
+        margin: 10%;
+        font-size: 90%;   
             div{
                 margin-bottom: 15px;
             }
