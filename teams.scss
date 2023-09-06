@@ -37,7 +37,7 @@ body {
 span {
     @extend %font;
 }
-a {
+a input{
     @extend %font;
 }
 .nav {
@@ -60,7 +60,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    a {
+    a input{
         width: 70%;
         color: gray;
         font-size: 13px;
@@ -97,7 +97,7 @@ a {
         width: 18px;
         margin-right: 6px;
     }
-    a {
+    a input{
         display: flex;
         align-items: center;
     }
@@ -265,10 +265,10 @@ a {
     background-size: 90% 103%;
     background-repeat: no-repeat;
 }
-a {
+a input{
     text-decoration: none;
 }
-.greeaa {
+.greeaa input{
     background-color: aquamarine;
 }
 .course {
